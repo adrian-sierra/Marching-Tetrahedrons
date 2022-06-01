@@ -583,7 +583,7 @@ int main()
   //  IsosurfaceTet(t, ti, 0.5);
 */
     vtkDataSetReader *rdr = vtkDataSetReader::New();
-    rdr->SetFileName("proj6.vtk");
+    rdr->SetFileName("data.vtk");
     rdr->Update();
     if (rdr->GetOutput() == NULL || rdr->GetOutput()->GetNumberOfCells() == 0)
     {
