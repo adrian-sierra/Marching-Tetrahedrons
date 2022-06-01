@@ -272,6 +272,7 @@ TriangleList::MakePolyData(void)
     return pd;
 }
 
+/* BEGINNING OF THE IMPLEMENTATION OF MY ALGORITHM FOR THIS PROJECT */
 class Tetrahedron
 {
   public:
